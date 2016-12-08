@@ -1,6 +1,23 @@
-# hello-world
-Just for fun
+// # hello-world
+// Just for fun
 
-Hello World!!
+// Hello World!!
 
-I love C# and plan to venture out to other coding languages!
+// I love C# and plan to venture out to other coding languages!
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace HelloWorldCLA
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World");
+            Console.ReadLine();
+        }
+    }
+}
